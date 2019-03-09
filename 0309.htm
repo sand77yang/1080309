@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://203.64.84.113/x/RQ_RS.aspx" method="post">
+
+    <center><h1>簡易營養自我評估紀錄</h1></center>
+    <h2>一.基本資料</h2><br>
+    姓名： 
+    <input type="text" name="姓名" value=" "/>  
+    生日： 
+    <input type="text" name="西元" value="西元"style="width:70px"/> /
+    <input type="text" name="月" value="月"style="width:70px"/> /
+    <input type="text" name="日" value="日"style="width:70px"/>   
+    
+    身分證字號： 
+    <input type="text" name="身分證字號" value=" "style="width:130px"/>
+    性別：
+    <input type="radio" name="性別" value="女"> 女 
+    <input type="radio" name="性別" value="男"> 男<br><br>
+    電話：  
+    <input type="text" name="電話" value=" "/>      
+    行動：  
+    <input type="text" name="行動" value=" "/>      
+    E-mail：
+    <input type="text" name="email" value=" "/><br>
+    <h2>二.生活型態</h2><br>
+    (一)生活習慣：
+    (1)睡眠時間：
+         <select name="睡眠時間">
+            　<option value="1~4 hr">1~4</option>
+            　<option value="5~8 hr">5~8</option>
+            　<option value="9~12 hr">9~12</option>
+            　<option value="13~16 hr">13~16</option>
+            　<option value="17~20 hr">17~20</option>
+              <option value="11~24 hr">21~24</option>
+        </select>小時/天<br>
+    <pre>               (2)抽菸：<input type="radio" name="抽菸" value="不抽菸"/> 無 <input type="radio" name="抽菸" value="有"/> 有：<input type="text" name="有抽菸(包)" value=" "style="width:50px"/>包<br></pre>
+    <pre>               (3)喝酒：<input type="radio" name="喝酒" value="不喝酒"/> 無 <input type="radio" name="喝酒" value="有"/> 有：<input type="text" name="有喝酒(瓶/週)" value=" "style="width:50px"/>瓶/週<br></pre>
+    (二)健康資料：<br><br>
+    身高/體重：
+    <input type="text" name="身高" value=" "style="width:100px"/>cm/
+    <input type="text" name="體重" value=" "style="width:100px"/>kg、BMI；
+    <input type="text" name="BMI" value=" "style="width:100px"/>、腹圍：
+    <input type="text" name="腹圍" value=" "style="width:100px"/>cm<br><br>
+    血壓： <input type="text" name="血壓" value=" "style="width:100px"/>mmHg、心跳：
+    <input type="text" name="心跳" value=" "style="width:100px"/><br>
+    皮下脂肪率： <input type="text" name="皮下脂肪率" value=" "style="width:100px"/>、
+    體年齡：<input type="text" name="體年齡" value=" "style="width:100px"/>、
+    基礎代謝率：<input type="text" name="基礎代謝率" value=" "style="width:100px"/><br>
+    膽固醇：<input type="text" name="膽固醇" value=" "style="width:100px"/>、高密度脂質：
+    <input type="text" name="高密度脂質" value=" "style="width:100px"/>、低密度脂質：
+    <input type="text" name="低密度脂質" value=" "style="width:100px"/><br>
+    其他：
+    <input type="text" name="other1" value=" "style="width:100px"/>、
+    <input type="text" name="other2" value=" "style="width:100px"/>、
+    <input type="text" name="other3" value=" "style="width:100px"/>
+    <h2>三.目前有的健康問題：</h2>
+    <textarea name="目前有的健康問題" cols="30" rows="5"></textarea>
+    <h2>四.欲改善健康問題：</h2>
+    <textarea name="欲改善健康問題" cols="30" rows="5"></textarea>
+    <h2>五.健康問題(多選)：</h2>
+    <input type="checkbox" value="眼睛疲勞、眼睛乾澀" name="health1"> 眼睛疲勞、眼睛乾澀 <br><br>
+    <input type="checkbox" value="頭皮屑、易掉髮" name="health2"> 頭皮屑、易掉髮<br><br>
+    <input type="checkbox" value="疲倦、易生氣" name="health3"> 疲倦、易生氣<br><br>
+    <input type="checkbox" value="記憶減退" name="health4"> 記憶減退<br><br>
+    <input type="checkbox" value="熬夜壓力" name="health5"> 熬夜壓力<br><br>
+    <input type="checkbox" value="偏頭痛" name="health6"> 偏頭痛<br><br>
+    <input type="checkbox" value=" 肝炎" name="health7"> 肝炎<br><br>
+    <input type="checkbox" value="過敏性鼻炎" name="health8"> 過敏性鼻炎<br><br>
+    <hr size="2px" align="left" color="black" width="20%">
+    <input type="checkbox" value="青春痘" name="health9"> 青春痘<br><br>
+    <input type="checkbox" value="黑斑" name="health10"> 黑斑<br><br>
+    <input type="checkbox" value=" 臉過油" name="health11"> 臉過油<br><br>
+    <input type="checkbox" value="濕疹" name="health12"> 濕疹<br><br>
+    <input type="checkbox" value="皮膚炎" name="health13"> 皮膚炎<br><br>
+    <input type="checkbox" value="口乾舌燥" name="health14">口乾舌燥<br><br>
+    <input type="checkbox" value="重口味" name="health15">重口味<br><br>
+    <input type="checkbox" value="消化不良" name="health16">消化不良<br><br>
+    <input type="checkbox" value="脹氣" name="health17">脹氣<br><br>
+    <input type="checkbox" value="時常打嗝" name="health18">時常打嗝<br><br>
+    <hr size="2px" align="left" color="black" width="20%">
+    <input type="checkbox" value="便祕" name="health19">便祕<br><br>
+    <input type="checkbox" value="水腫" name="health20">水腫<br><br>
+    <input type="checkbox" value="經痛" name="health21">經痛<br><br>
+    <input type="checkbox" value="更年期" name="health22">更年期<br><br>
+    <input type="checkbox" value="害喜" name="health23">害喜<br><br>
+    <input type="checkbox" value="手腳冰冷" name="health24">手腳冰冷<br><br>
+    <hr size="2px" align="left" color="black" width="20%">
+    <input type="checkbox" value="尿床" name="health25">尿床<br><br>
+    <input type="checkbox" value="抽筋" name="health26">抽筋<br><br>
+    <input type="checkbox" value="頻尿" name="health27">頻尿<br><br>
+    <input type="checkbox" value="骨質疏鬆" name="health28">骨質疏鬆<br><br>
+    <input type="submit" value="送出"style="width:200px;height:80px;font-size:20px;">
+    </form>
+</body>
+</html>
